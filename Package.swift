@@ -15,10 +15,10 @@ let package = Package(
             name: "FioriCharts",
             type: .dynamic,
             targets: ["FioriCharts"]),
-        .library(
+        /*.library(
             name: "FioriIntegrationCards",
             type: .dynamic,
-            targets: ["FioriIntegrationCards"]),
+            targets: ["FioriIntegrationCards"]),*/
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
