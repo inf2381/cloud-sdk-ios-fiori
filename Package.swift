@@ -31,9 +31,9 @@ let package = Package(
         .target(
             name: "FioriSwiftUI",
             dependencies: ["FioriIntegrationCards"]),
-        .target(
+        /*.target(
             name: "FioriIntegrationCards",
-            dependencies: ["AnyCodable", "TinyNetworking", "ObservableArray", "FioriCharts", "Zip"]),
+            dependencies: ["AnyCodable", "TinyNetworking", "ObservableArray", "FioriCharts", "Zip"]),*/
         .target(
             name: "FioriCharts",
             dependencies: ["FioriSwiftUICore"]),
